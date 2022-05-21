@@ -1,4 +1,4 @@
-package Assignment_Day_5;
+package Day5;
 
 public class Employee {
 	private int employeeId;
