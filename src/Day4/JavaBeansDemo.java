@@ -1,4 +1,4 @@
-package Assignment_Day_4;
+package Day4;
 
 public class JavaBeansDemo {
 	public static void main(String[] args) {

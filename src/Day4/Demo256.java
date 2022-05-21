@@ -1,4 +1,4 @@
-package Assignment_Day_4;
+package Day4;
 public class Demo256 {
 	Demo256(){
 		System.out.println("Default constructor");
