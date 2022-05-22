@@ -3,33 +3,30 @@ package Day5;
 import java.util.Scanner;
 
 public class EmployeeMain {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		System.out.print("Enter the ticketid : ");
+		System.out.print("Enter id ");
 		int id=sc.nextInt();
-		
-		System.out.print("Enter the price: ");
-		int price=sc.nextInt();
-		
-		System.out.print("Enter the no of tickets : ");
-		int bookedTicket=sc.nextInt();
-		
-		System.out.println("Available tickets: ");
-		int avTicket=sc.nextInt();
-		
-		Ticket tic=new Ticket();
-		tic.setPrice(price);
-		tic.setTicketid(id);
-		tic.setAvailableTickets(avTicket);
-		
+
+		System.out.print("Enter name ");
+		String name=sc.next();
+
+		System.out.print("Enter salary ");
+		double sal=sc.nextDouble();
+
+		System.out.print("Enter PF percentage: ");
+		int pf=sc.nextInt();
+
+		Employee emp=new Employee();
+		emp.setEmployeeId(id);
+		emp.setEmployeeName(name);
+		emp.setSalary(sal);
+		emp.calculateNetSalary(pf);
 		System.out.println();
-		int total=tic.calculateTicketCost(bookedTicket);
-		System.out.println("Total amount: "+total);
-		
-		int remain =avTicket-bookedTicket;
-		System.out.println("Available ticket after booking : "+remain);
+		emp.getEmployeeDetails();
+	}
 }
 
-}
+
+

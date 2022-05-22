@@ -5,7 +5,7 @@ public class JavaBeansDemo {
 		JavaBeansQuest1 jv=new JavaBeansQuest1();
 		jv.setName("Rajesh");
 		jv.setRoll(157);
-		jv.setAge(25);
+		jv.setAge(2);
 		jv.setMarks(350);
 		
 		jv.showDetails();
