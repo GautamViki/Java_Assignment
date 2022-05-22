@@ -6,8 +6,8 @@ public class Employee {
 	private double salary;
 	private double netSalary;
 	
-	 public void calculateNetSalary(int pfpercentage) {
-		 double _netSal=this.salary*pfpercentage/100;
+	 public void calculateNetSalary(int pfPercentage) {
+		 double _netSal=this.salary*pfPercentage/100;
 		 this.netSalary=this.salary-_netSal;
 	 }
 	 public void getEmployeeDetails() {
@@ -16,38 +16,18 @@ public class Employee {
 		 System.out.println("Salary : "+salary);
 		 System.out.println("Net Salary : "+netSalary);
 	 }
-	public int getEmployeeId() {
-		return employeeId;
-	}
 
 	public void setEmployeeId(int employeeId) {
 		this.employeeId = employeeId;
-	}
-
-	public String getEmployeeName() {
-		return employeeName;
 	}
 
 	public void setEmployeeName(String employeeName) {
 		this.employeeName = employeeName;
 	}
 
-	public double getSalary() {
-		return salary;
-	}
-
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
 
-	public double getNetSalary() {
-		return netSalary;
-	}
-
-	public void setNetSalary(double netSalary) {
-		this.netSalary = netSalary;
-	}
-	 
-	 
 
 }
