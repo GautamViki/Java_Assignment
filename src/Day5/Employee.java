@@ -17,7 +17,8 @@ public class Employee {
 		 System.out.println("Net Salary : "+netSalary);
 	 }
 
-	public void setEmployeeId(int employeeId) {
+
+    public void setEmployeeId(int employeeId) {
 		this.employeeId = employeeId;
 	}
 
