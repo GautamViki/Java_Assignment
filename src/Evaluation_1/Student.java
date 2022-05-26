@@ -7,7 +7,6 @@ public class Student {
     private int marks;
 
     public Student() {
-
     }
 
     public Student(int rol, String name, int mak) {
