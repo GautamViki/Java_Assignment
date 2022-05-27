@@ -9,8 +9,4 @@ public class ICICIBank extends Bank {
         System.out.println("Rate of Interest : " + this.rateOfInterest);
     }
 
-    void getCreditCard() {
-        System.out.println("Get the Credit Card from the ICICI bank");
-    }
-
 }
