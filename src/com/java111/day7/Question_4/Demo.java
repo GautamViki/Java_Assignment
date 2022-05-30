@@ -33,6 +33,7 @@ public class Demo {
         System.out.println();
         Bank bank1 = getBank(bankName, rate);
 
+//        AxisBank axis = AxisBank(bank1);
         bank1.bankName = bankName;
         bank1.ifscCode = ifsc;
 
